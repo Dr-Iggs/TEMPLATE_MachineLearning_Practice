@@ -1,4 +1,4 @@
-#You're starting your own Project!
+# You're starting your own Project!
 
 You'll want to use **either** the `app.R` or the `index.qmd` to build your story.
 *If you want something interactive or that will automatically update to new writings we find and transcribe: `app.R`
