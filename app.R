@@ -48,7 +48,7 @@ server <- function(input, output) {
   })
   output$sample_chart <- renderPlot({
     ggplot(selections$filtered_writing, aes(x=Order,y=`Word Count`)) +
-      geom_col()  + theme_gray() + geom_point() +
+      geom_col()  + theme_gray() +
       labs(y=paste("Number of Times \"",input$word_search, "\" Is Referenced",sep=''),
            title=paste("How Much Does Pres. Woodruff Talk About \"",input$word_search,"\"?",sep=''))
   })
